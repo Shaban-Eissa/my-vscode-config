@@ -1,0 +1,293 @@
+{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false,
+    "javascript": true
+  },
+  "github.copilot.advanced": {},
+  "git.decorations.enabled": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.decorations.colors": true,
+  "explorer.decorations.badges": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.autoImports": true,
+  "typescript.tsserver.log": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "totalTypeScript.hiddenTips": ["variable-type-annotation"],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.settings.editor": "json",
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.editor.showTabs": "multiple", // file tabs
+  "workbench.layoutControl.type": "menu",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "bottom",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.tabSizing": "fit",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  // Removes the close tab button. Use Control + W instead.
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.statusBar.visible": true,
+  "workbench.tips.enabled": false,
+
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#fff",
+    "sideBarActivityBarTop.border": "#00000000",
+    "editorGutter.background": "#00000000",
+    "breadcrumb.background": "#00000000",
+    "tab.activeBorder": "#00000000",
+    "tab.border": "#00000000",
+    "editorStickyScroll.background": "#00000000",
+    "panelStickyScroll.background": "#00000000"
+  },
+
+  "window.menuBarVisibility": "toggle",
+  // "window.title": " ",
+  "window.commandCenter": true,
+  "window.zoomLevel": 0,
+  "window.customTitleBarVisibility": "auto",
+  "window.autoDetectHighContrast": false,
+  "window.newWindowDimensions": "inherit",
+
+  "breadcrumbs.enabled": false,
+
+  // Enables an infinite amount of editors and disables
+  // the useless "Open Editors" panel in the explorer.
+  "explorer.openEditors.visible": 0,
+  "explorer.autoReveal": false,
+
+  "editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
+  "editor.stickyScroll.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.foldingHighlight": false,
+  // Stops highlighting the current line.
+  // of current indentation.
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveIndentation": false,
+  // Stops highlighting matching bracket pairs.
+  // Colored brackets eliminates the need for this!
+  "editor.matchBrackets": "never",
+  "editor.guides.highlightActiveBracketPair": false,
+  // OPTIONAL: Disables parameter hints.
+  // If you'd prefer to receive hints, leave these
+  // settings on!
+  "editor.parameterHints.enabled": false,
+  "editor.inlayHints.enabled": "off",
+
+  // If you find that you don't use line numbers much
+  // and want even more space for your code, don't be
+  // afraid to turn this off!
+  "editor.lineNumbers": "off",
+
+  // Use alt+l to show lines numbers and hide them again
+  "settings.cycle": [
+    {
+      "id": "lineNumbers",
+      "values": [
+        { "editor.lineNumbers": "off" },
+        { "editor.lineNumbers": "on" }
+      ]
+    }
+  ],
+  "editor.overviewRulerBorder": false,
+  // Add some padding to the top and bottom of our file
+  "editor.padding.bottom": 14,
+  "editor.padding.top": 14,
+  "editor.codeLens": false,
+  // OPTIONAL: Removes the glyph margin for breakpoints
+  // and other symbols that most people don't use.
+  // If you use those things, feel free to enable this!
+  "editor.glyphMargin": false,
+  "editor.showFoldingControls": "never",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.scrollbar.horizontal": "hidden",
+  // "editor.scrollbar.vertical": "hidden",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "bounded",
+  "editor.wrappingStrategy": "advanced",
+  "editor.tabSize": 2,
+  // Customizing your font and spacing (line height)
+  "editor.fontWeight": "350", // OPTIONAL
+  "editor.lineHeight": 24,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  // reduce noice
+  "editor.hover.enabled": true,
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "editor.renderControlCharacters": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.hover.sticky": false,
+  "editor.suggest.preview": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.cursorStyle": "line",
+  "editor.autoClosingBrackets": "beforeWhitespace",
+  "editor.fontSize": 13,
+  "editor.mouseWheelZoom": true,
+  "editor.minimap.autohide": true,
+  "editor.scrollbar.horizontalScrollbarSize": 5,
+  // "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.size": "fit",
+  "diffEditor.renderSideBySide": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.snippetSuggestions": "bottom",
+  "editor.detectIndentation": true,
+  "editor.tabCompletion": "on",
+  "editor.semanticHighlighting.enabled": true,
+  // Suggestions
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.suggestSelection": "first",
+  "editor.suggest.showWords": false,
+  "editor.folding": false,
+  "editor.renderWhitespace": "none",
+  "editor.scrollBeyondLastLine": false,
+  "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "comment",
+        "scope": ["comment"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Variable",
+        "scope": ["variable.language", "string.other.link.title.markdown"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Keyword Storage",
+        "scope": ["storage"], // variables let, const
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Entity",
+        "scope": ["entity.other.attribute-name", "entity.name.method"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.enableTrash": false,
+  "files.insertFinalNewline": true,
+  "files.autoSave": "afterDelay",
+
+  "apc.statusBar": {
+    "fontSize": 11,
+    "height": 35,
+    "position": "editor-bottom"
+  },
+
+  "apc.sidebar.titlebar": {
+    "fontSize": 11
+  },
+  "apc.header": {
+    "compact": 35
+  },
+  "apc.activityBar": {
+    "itemSize": 10
+  },
+  "apc.menubar.compact": false,
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.stylesheet": {
+    ".sidebar .title-label": "padding: 0 !important"
+  },
+
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-ui-snippets.showNotesOnStartup": false,
+
+  "scm.diffDecorations": "none",
+  "scm.diffDecorationsGutterAction": "none",
+  "scm.diffDecorationsGutterPattern": {
+    "added": false,
+    "modified": false
+  },
+
+  "search.smartCase": true,
+  "search.useIgnoreFiles": false,
+
+  /* Terminal */
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.lineHeight": 1.3,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, Hack, Consolas",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.showExitAlert": false,
+
+  // "editor.fontFamily": "'Fira Code iScript', 'Fira Code', 'Consolas', 'Courier New', monospace",
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "emmet.showAbbreviationSuggestions": false,
+  // "update.mode": "start",
+  "update.showReleaseNotes": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Moxer"
+}
