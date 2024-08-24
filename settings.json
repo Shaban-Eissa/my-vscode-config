@@ -2,7 +2,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnSave": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "sdteotonio.angular-formatter"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -46,21 +46,16 @@
   "typescript.suggest.autoImports": true,
   "typescript.tsserver.log": "off",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "totalTypeScript.hideAllTips": false,
-  "totalTypeScript.hideBasicTips": false,
-  "totalTypeScript.hiddenTips": ["variable-type-annotation"],
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.startupEditor": "none",
-  "workbench.productIconTheme": "fluent-icons",
   "workbench.settings.editor": "json",
   "workbench.tree.enableStickyScroll": true,
   "workbench.layoutControl.enabled": false,
-  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.editor.showTabs": "multiple", // file tabs
   "workbench.layoutControl.type": "menu",
-  "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "bottom",
   "workbench.editor.enablePreview": false,
   "workbench.editor.tabSizing": "fit",
@@ -100,9 +95,11 @@
 
   "editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
   "editor.stickyScroll.enabled": false,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
-  },
+
+  // you can use codeActionsOnSave to organize imports and delete unused imports
+  // "editor.codeActionsOnSave": {
+  //   "source.organizeImports": "explicit"
+  // },
   "editor.foldingHighlight": false,
   // Stops highlighting the current line.
   // of current indentation.
@@ -121,7 +118,7 @@
   // If you find that you don't use line numbers much
   // and want even more space for your code, don't be
   // afraid to turn this off!
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "on",
 
   // Use alt+l to show lines numbers and hide them again
   "settings.cycle": [
@@ -141,7 +138,7 @@
   // OPTIONAL: Removes the glyph margin for breakpoints
   // and other symbols that most people don't use.
   // If you use those things, feel free to enable this!
-  "editor.glyphMargin": false,
+  "editor.glyphMargin": true,
   "editor.showFoldingControls": "never",
   "editor.bracketPairColorization.enabled": false,
   "editor.guides.bracketPairsHorizontal": false,
@@ -166,7 +163,7 @@
   "editor.renderControlCharacters": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.stickyScroll.scrollWithEditor": false,
-  "editor.hover.sticky": false,
+  "editor.hover.sticky": true,
   "editor.suggest.preview": true,
   "editor.quickSuggestions": {
     "strings": true
@@ -194,7 +191,7 @@
   "editor.folding": false,
   "editor.renderWhitespace": "none",
   "editor.scrollBeyondLastLine": false,
-  "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
+  // "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -259,7 +256,6 @@
   },
 
   "material-icon-theme.hidesExplorerArrows": true,
-  "material-ui-snippets.showNotesOnStartup": false,
 
   "scm.diffDecorations": "none",
   "scm.diffDecorationsGutterAction": "none",
@@ -281,13 +277,15 @@
   "terminal.integrated.gpuAcceleration": "off",
   "terminal.integrated.showExitAlert": false,
 
-  // "editor.fontFamily": "'Fira Code iScript', 'Fira Code', 'Consolas', 'Courier New', monospace",
+  "editor.fontFamily": "'Fira Code iScript', 'Fira Code', 'Consolas', 'Courier New', monospace",
 
   "security.workspace.trust.untrustedFiles": "open",
 
   "emmet.showAbbreviationSuggestions": false,
   // "update.mode": "start",
   "update.showReleaseNotes": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Moxer"
+  "workbench.iconTheme": "moxer-icons",
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Moxer",
+  "update.mode": "manual",
 }
